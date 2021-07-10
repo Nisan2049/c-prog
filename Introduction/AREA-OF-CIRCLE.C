@@ -1,5 +1,5 @@
 /*******************************************
-Statement - Print Integer
+Statement - Area of Circle
 Code By -  Nishan Lamichhane
 Visit my Website - http://nisanlamichhane.com.np
 ********************************************/
@@ -9,12 +9,13 @@ Visit my Website - http://nisanlamichhane.com.np
 
 void main()
 {
-	int a;
+	int r;
+    float ar;
+    const pi=3.14;
 	clrscr();
-	printf("Enter an integer\n");
-	scanf("%d", &a);
-	printf("Integer that you have entered is %d\n", a);
-	printf(" %d is the entered number\n", a);
-	printf("You entered %d which is an integer\n", a);
+	printf("Enter radius\n");
+	scanf("%d", &r);
+    ar=pi*r*r;
+	printf("Area of circle with radius %d is %f \n", r, ar);
 	getch();
 }

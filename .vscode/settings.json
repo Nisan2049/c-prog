@@ -1,0 +1,12 @@
+{
+    "files.associations": {
+        "AREA.C": "cpp",
+        "ADD.C": "cpp",
+        "HELLO.C": "cpp",
+        "ARITHMETIC.C": "cpp",
+        "INT.C": "cpp",
+        "PRINTF-VARIATIONS.C": "cpp",
+        "PRINT-WITH-ARGUMENTS.C": "cpp",
+        "AREA-OF-CIRCLE.C": "cpp"
+    }
+}
